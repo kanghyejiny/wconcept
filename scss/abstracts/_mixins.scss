@@ -1,0 +1,48 @@
+@mixin ellipse {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+// media query
+@mixin large {
+  // 1919px
+  @media (max-width: $desktop-large) {
+    @content;
+  }
+}
+
+@mixin medium {
+  // 1600px
+  @media (max-width: $desktop-medium) {
+    @content;
+  }
+}
+
+@mixin small {
+  // 1599px
+  @media (max-width: $desktop-small) {
+    @content;
+  }
+}
+
+@mixin small2 {
+  // 1598px
+  @media (max-width: $desktop-small2) {
+    @content;
+  }
+}
+
+@mixin xsmall {
+  // 1400px
+  @media (max-width: $desktop-xsmall) {
+    @content;
+  }
+}
+
+@mixin xxsmall {
+  // 1280px
+  @media (max-width: $desktop-xxsmall) {
+    @content;
+  }
+}

@@ -1,0 +1,77 @@
+// font - Proxima
+@font-face {
+  font-family: "ProximaNova-Thin";
+  font-weight: 400;
+  src: url("../fonts/proximanova-thin-webfont.woff2");
+}
+
+@font-face {
+  font-family: "ProximaNova-Light";
+  font-weight: 400;
+  src: url("../fonts/proximanova-light-webfont.woff2");
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  font-weight: 400;
+  src: url("../fonts/proximanova-regular-webfont.woff2");
+}
+
+@font-face {
+  font-family: "ProximaNova-Medium";
+  font-weight: 400;
+  src: url("../fonts/proximanova-medium-webfont.woff2");
+}
+
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  font-weight: 400;
+  src: url("../fonts/proximanova-semibold-webfont.woff2");
+}
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  font-weight: 400;
+  src: url("../fonts/proximanova-bold-webfont.woff2");
+}
+@font-face {
+  font-family: "ProximaNova-Extrabold";
+  font-weight: 400;
+  src: url("../fonts/proximanova-extrabold-webfont.woff2");
+}
+
+// font - NotoSansKR
+@font-face {
+  font-family: "Noto Sans KR";
+  font-weight: 400;
+  src: url("../fonts/NotoSansKR-Regular.woff2");
+}
+
+@font-face {
+  font-family: "NotoSansKR-Medium";
+  font-weight: 500;
+  src: url("../fonts/NotoSansKR-Medium.woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-weight: 700;
+  src: url("../fonts/NotoSansKR-Bold.woff2");
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "ProximaNova-Light", "Noto Sans KR", "Apple SD Gothic Neo", AppleGothic, "돋움", Dotum, Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.sc-title {
+  height: 52px;
+  color: #333;
+  font-family: "ProximaNova-Thin";
+  font-size: 48px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
